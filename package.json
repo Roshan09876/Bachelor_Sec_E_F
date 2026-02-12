@@ -4,11 +4,16 @@
   "description": "i am teaching backend to section E and F",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "Roshan Kumar Khadka",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^8.23.0"
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^8.23.0",
+    "nodemon": "^3.1.11",
+    "router": "^2.2.0"
   }
 }
